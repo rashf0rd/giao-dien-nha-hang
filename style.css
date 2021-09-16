@@ -1,0 +1,25 @@
+#header{
+    height: 100px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.logo{
+    width:80%;
+    float:left;
+    height: 100%;
+}
+.menu{
+    width: 20%;
+    float: right;
+    height: 100%;
+}
+.clear-float{
+    clear: both;
+}
