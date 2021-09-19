@@ -1,7 +1,8 @@
-#header{
-    height: 100px;
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
 }
-
 .img-responsive{
     width: 100%;
 }
@@ -9,35 +10,85 @@
 .text-right{
     text-align: right;
 }
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: greenyellow;
+}
+h2{
+    color:black;
+}
+h3{}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
 
 .logo{
-    width:80%;
-    float:left;
-    height: 100%;
+    width: 10%;
+    float: left;
 }
 .menu{
-    width: 20%;
-    float: right;
-    height: 100%;
+    line-height: 60px;
 }
-.clear-float{
-    clear: both;
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
 }
-#food-search{
-    height: 100%;
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
 }
-#categories{
-    height: 100px;
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
 }
-.Pizza{
-    float:left;
-    width: 100%;
-    height: 100%;
+
+.categories{
+    padding: 4% 0;
 }
-.Burger{
-    float: center;
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
-.Momo{
-    float: right;
-}
+
 
